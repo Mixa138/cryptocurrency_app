@@ -53,16 +53,7 @@ class CryptoListScreen extends StatefulWidget {
 }
 
 class _CryptoListScreenState extends State<CryptoListScreen> {
-  int _counter = 0;
 
-  void _incrementCounter() {
-    setState(() {
-      _counter++;
-    });
-  }
-
-
-   
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
